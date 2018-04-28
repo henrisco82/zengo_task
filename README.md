@@ -33,9 +33,9 @@ $ cd C:\Program Files\MongoDB\Server\3.4\bin
 $ cd mongod
 
 # import database collections 
-$ cd C:\Program Files\MongoDB\Server\3.4\bin
-$ mongoimport --db zengo_task --collection Counties --file C:\Users\Henrisco82\Documents\project\zengo_task\database\counties.json
-$ mongoimport --db zengo_task --collection City --file C:\Users\Henrisco82\Documents\project\zengo_task\database\city.json
+$ cd zengo_task/database
+$ mongoimport /db:zengo_task /collection:Counties /file:counties.json
+$ mongoimport /db:zengo_task /collection:City /file:city.json
 
 
 
