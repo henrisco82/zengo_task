@@ -1,0 +1,44 @@
+{
+  "name": "Counties",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "seat": {
+      "type": "string",
+      "required": true
+    },
+    "population": {
+      "type": "string",
+      "required": true
+    },
+    "numberOfDistrict": {
+      "type": "number",
+      "required": true
+    },
+    "Area": {
+      "type": "number",
+      "required": true
+    },
+    "numberOfMunicipalities": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "cities": {
+      "type": "hasMany",
+      "model": "City",
+      "foreignKey": "county_id"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,40 @@
+<div class="jumbotron">
+      
+          <div class="form-group" >
+              <select class="form-control" (change)="selectchange($event)" >
+                  <option value="">Válasszon</option>
+                 <option value="{{county.id}}" *ngFor="let county of counties" >
+                   {{ county.name }}
+                  </option>
+                </select>
+          </div>
+          <div class="form-group">
+             
+              <table class="table">
+                  <tbody>
+                    <tr *ngIf="dropForm===true">
+                        <td><input type="text" class="form-control" name="thecity" [(ngModel)]="thecity" /></td>
+                        <td><button name="submit" class="btn btn-primary" (click)="addCity()" > <i class="fa fa-plus"></i> </button></td>
+                    </tr>
+                   
+                    <tr *ngFor="let city of selectedCities; let i=index;">
+                      <td *ngIf="city.id === editRowId" (click)="edit(city.id)"><input type="text" class="form-control" name="thecity" value="{{city.name}}" [(ngModel)]="city.name" /></td>
+                      <td *ngIf="city.id !== editRowId" (click)="edit(city.id)">{{city.name}} </td>
+                      <td> <button name="edit" class="btn btn-primary" (click)="editCity(city.name)">módosít <i class="fa fa-edit"></i></button></td>
+                      <td> <button name="delete" class="btn btn-danger" (click)="deleteCity()">törlés <i class="fa fa-trash"></i></button></td>
+                      <td> <button name="cancel" class="btn btn-warning" (click)="cancel()">mégsem <i class="fa fa-remove"></i></button></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              
+          </div>
+         
+ 
+     
+  
+  
+  
+</div>
+  
+  

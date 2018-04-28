@@ -1,0 +1,21 @@
+{"_id":{"$oid":"5ae1dbce01574e1930c28d47"},"name":"Baranya","seat":"Pecs","population":"386,441","numberOfDistrict":10,"Area":4429.6,"numberOfMunicipalities":301}
+{"_id":{"$oid":"5ae1dc038f24350f1cf56e39"},"name":"Bács-Kiskun","seat":"KecsKemét","population":"520,331","numberOfDistrict":11,"Area":8445.15,"numberOfMunicipalities":119}
+{"_id":{"$oid":"5ae1dc1c8f24350f1cf56e3a"},"name":"Békés","seat":"Békéscsaba","population":"359,948","numberOfDistrict":9,"Area":5631.05,"numberOfMunicipalities":75}
+{"_id":{"$oid":"5ae1dc2f8f24350f1cf56e3b"},"name":"Borsod-Abaúj-Zemplén","seat":"Miskolc","population":"686,266","numberOfDistrict":16,"Area":7247.17,"numberOfMunicipalities":358}
+{"_id":{"$oid":"5ae1dc4b8f24350f1cf56e3c"},"name":"Budapest","seat":"Municipality of Budapest","population":"1,733,685","numberOfDistrict":23,"Area":525.13,"numberOfMunicipalities":0}
+{"_id":{"$oid":"5ae1dc5d8f24350f1cf56e3d"},"name":"Csongrád","seat":"Szeged","population":"417,456","numberOfDistrict":7,"Area":4261.74,"numberOfMunicipalities":60}
+{"_id":{"$oid":"5ae1dc6e8f24350f1cf56e3e"},"name":"Fejér","seat":"Székesfehérvár","population":"425,847","numberOfDistrict":8,"Area":4358.76,"numberOfMunicipalities":108}
+{"_id":{"$oid":"5ae1dc838f24350f1cf56e3f"},"name":"Győr-Moson-Sopron","seat":"Győr","population":"447,985","numberOfDistrict":7,"Area":4208.05,"numberOfMunicipalities":183}
+{"_id":{"$oid":"5ae1dc928f24350f1cf56e40"},"name":"Hajdú-Bihar","seat":"Debrecen","population":"546,721","numberOfDistrict":10,"Area":6210.56,"numberOfMunicipalities":82}
+{"_id":{"$oid":"5ae1dca18f24350f1cf56e41"},"name":"Heves","seat":"Eger","population":"308,882","numberOfDistrict":7,"Area":3637.25,"numberOfMunicipalities":121}
+{"_id":{"$oid":"5ae1dcb08f24350f1cf56e42"},"name":"Jász-Nagykun-Szolnok","seat":"Szolnok","population":"386,594","numberOfDistrict":9,"Area":5581.71,"numberOfMunicipalities":78}
+{"_id":{"$oid":"5ae1dcbf8f24350f1cf56e43"},"name":"Komárom-Esztergom","seat":"Tatabáanya","population":"304,568","numberOfDistrict":6,"Area":2265.08,"numberOfMunicipalities":76}
+{"_id":{"$oid":"5ae1dcd08f24350f1cf56e44"},"name":"Nógrád","seat":"Salgótarján","population":"202,427","numberOfDistrict":6,"Area":2544.18,"numberOfMunicipalities":131}
+{"_id":{"$oid":"5ae1dcdf8f24350f1cf56e45"},"name":"Pest","seat":"Budapest","population":"1,217,476","numberOfDistrict":18,"Area":6393.14,"numberOfMunicipalities":187}
+{"_id":{"$oid":"5ae1dced8f24350f1cf56e46"},"name":"Somogy","seat":"Kaposvár","population":"317,307","numberOfDistrict":8,"Area":6065.07,"numberOfMunicipalities":245}
+{"_id":{"$oid":"5ae1dcfc8f24350f1cf56e47"},"name":"Szabolcs-Szatmár-Bereg","seat":"Nyíregyháza","population":"559,272","numberOfDistrict":13,"Area":5936.45,"numberOfMunicipalities":229}
+{"_id":{"$oid":"5ae1dd0a8f24350f1cf56e48"},"name":"Tolna","seat":"Szekszárd","population":"230,361","numberOfDistrict":6,"Area":3703.31,"numberOfMunicipalities":109}
+{"_id":{"$oid":"5ae1dd1b8f24350f1cf56e49"},"name":"Vas","seat":"Szombathely","population":"256,629","numberOfDistrict":7,"Area":3336.2,"numberOfMunicipalities":216}
+{"_id":{"$oid":"5ae1dd438f24350f1cf56e4a"},"name":"Veszprém","seat":"Veszprém","population":"351,898","numberOfDistrict":10,"Area":4463,"numberOfMunicipalities":217}
+{"_id":{"$oid":"5ae1dd538f24350f1cf56e4b"},"name":"Zala","seat":"Zalaegerszeg","population":"282,179","numberOfDistrict":6,"Area":3784.11,"numberOfMunicipalities":258}
+{"_id":{"$oid":"5ae1dd668f24350f1cf56e4c"},"name":"Hungary","seat":"Budapest","population":"9,937,628","numberOfDistrict":174,"Area":93030,"numberOfMunicipalities":3176}
